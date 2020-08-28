@@ -1,6 +1,75 @@
-/*// sass --watch styles.scss:styles.css*/
+html {
+  scroll-behavior: smooth; }
 
-/*// import partials*/
-@import "config";
-@import "index";
-@import "about";
+.page-container {
+  height: 100vh;
+  width: 100vw; }
+
+body {
+  background-color: black;
+  color: white; }
+
+a {
+  text: white;
+  text-decoration: none; }
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  scroll-snap-align: center; }
+
+.profile-media {
+  margin-bottom: 200px; }
+
+.intro-text {
+  font-size: 40px;
+  margin-top: 290px; }
+
+.about-me {
+  font-size: 60px; }
+
+.site-container {
+  width: 1000px;
+  margin: 0 auto; }
+
+.page-container {
+  position: relative; }
+
+.bio-container {
+  border: 1px solid blue;
+  color: white;
+  background-color: #1C1B1C;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .bio-container .bio {
+    width: 33%;
+    position: absolute;
+    right: 200px; }
+  .bio-container .buttons-flex {
+    display: flex;
+    justify-content: space-around; }
+
+.bio-image {
+  z-index: 1;
+  position: absolute;
+  height: 100%;
+  width: 40%;
+  border: 1px solid #730E16;
+  background-color: #730E16; }
+  .bio-image .img-dk {
+    width: 400px;
+    height: 500px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center; }
+
+/*# sourceMappingURL=styles.css.map */
