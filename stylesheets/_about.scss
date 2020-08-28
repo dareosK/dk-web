@@ -1,10 +1,44 @@
 // _about.scss
-.bio {
-  height: 100%;
-  width: 100%;
+
+// RIGHT - TEXT
+.page-container {
+  position: relative;
 }
 
-.bio-image {
+.bio-container {
+  border: 1px solid blue;
+  position: absolute;
   height: 100%;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .bio {
+    width: 33%;
+    position: absolute;
+    right: 200px;
+  }
+
+  .buttons-flex {
+    display: flex;
+    justify-content: space-around;
+  }
 }
+
+// LEFT - IMAGE
+.bio-image {
+  position: absolute;
+  height: 100%;
+  width: 40%;
+  border: 1px solid red;
+
+  .img-dk {
+    width: 400px;
+    height: 500px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
