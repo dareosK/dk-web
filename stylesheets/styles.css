@@ -2,7 +2,8 @@
   scroll-behavior: smooth; }
 
 body {
-  font-family: bungee, sans-serif;
+  font-family: gill-sans-nova-shadowed-outl, sans-serif;
+  font-weight: 400;
   font-style: normal;
   line-height: 1.6; }
 
@@ -47,7 +48,6 @@ section {
 
 .bio-container {
   border: 1px solid blue;
-  color: white;
   background-color: #1C1B1C;
   position: absolute;
   height: 100%;
@@ -68,8 +68,8 @@ section {
   position: absolute;
   height: 100%;
   width: 40%;
-  border: 1px solid #730E16;
-  background-color: #730E16; }
+  border: 1px solid #C31826;
+  background-color: #C31826; }
   .bio-image .img-dk {
     width: 400px;
     height: 500px;
@@ -100,7 +100,7 @@ section {
     text-transform: uppercase;
     color: white; }
     .navbar ul li a:hover {
-      color: #730E16; }
+      color: #C31826; }
 
 .contact-item {
   font-size: 80px; }
@@ -112,6 +112,6 @@ section {
   text-transform: uppercase;
   color: white; }
   .contact-item a:hover {
-    color: #730E16; }
+    color: #C31826; }
 
 /*# sourceMappingURL=styles.css.map */
