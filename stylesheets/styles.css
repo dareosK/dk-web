@@ -7,6 +7,8 @@
 
 .bio-container {
   border: 1px solid blue;
+  color: white;
+  background-color: #1C1B1C;
   position: absolute;
   height: 100%;
   width: 100%;
@@ -22,10 +24,12 @@
     justify-content: space-around; }
 
 .bio-image {
+  z-index: 1;
   position: absolute;
   height: 100%;
   width: 40%;
-  border: 1px solid red; }
+  border: 1px solid #730E16;
+  background-color: #730E16; }
   .bio-image .img-dk {
     width: 400px;
     height: 500px;
