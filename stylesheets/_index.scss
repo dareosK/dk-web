@@ -3,11 +3,20 @@
 body {
   background-color: black;
   color: white;
+  // CSS smooth scroll
+  // overflow: hidden;
 }
 
 a {
   text: white;
   text-decoration: none;
+}
+
+.site-container {
+  // CSS smooth scroll
+  // overflow-y: scroll;
+  // scroll-behavior: smooth;
+  // scroll-snap-type: y mandatory;
 }
 
 section {
@@ -18,15 +27,22 @@ section {
   text-align: center;
   width: 100%;
   height: 100vh;
+  scroll-snap-align: center;
+}
+
+  .profile-media {
+    margin-bottom: 200px;
+  }
+
+.intro-text {
+  font-size: 40px;
+  margin-top: 290px;
 }
 
 .about-me {
   font-size: 60px;
 }
 
-.intro-text {
-  font-size: 60px;
-}
 .site-container {
   width: 1000px;
   margin: 0 auto;
