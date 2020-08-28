@@ -1,0 +1,11 @@
+// _contact.scss
+.contact-item a {
+  margin: 0 1rem;
+  padding: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;;
+    color: white;
+    &:hover {
+      color: $primary-color;
+  }
+}
