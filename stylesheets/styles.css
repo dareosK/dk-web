@@ -3,7 +3,6 @@
 
 body {
   font-family: bungee, sans-serif;
-  font-weight: 400;
   font-style: normal;
   line-height: 1.6; }
 
@@ -102,6 +101,9 @@ section {
     color: white; }
     .navbar ul li a:hover {
       color: #730E16; }
+
+.contact-item {
+  font-size: 80px; }
 
 .contact-item a {
   margin: 0 1rem;
