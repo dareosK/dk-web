@@ -1,3 +1,13 @@
+.page-container {
+  height: 100vh;
+  width: 100vw; }
 
+.bio {
+  height: 100%;
+  width: 100%; }
+
+.bio-image {
+  height: 100%;
+  width: 100%; }
 
 /*# sourceMappingURL=styles.css.map */
