@@ -2,7 +2,7 @@
   scroll-behavior: smooth; }
 
 body {
-  font-family: gill-sans-nova-shadowed-outl, sans-serif;
+  font-family: proxima-nova-condensed, sans-serif;
   font-weight: 400;
   font-style: normal;
   line-height: 1.2; }
@@ -33,50 +33,20 @@ section {
   min-height: 100vh;
   scroll-snap-align: center; }
 
-.profile-media {
-  margin-bottom: 600px; }
-
 .intro-text {
   font-size: 3em;
-  margin-top: 290px; }
+  position: absolute;
+  top: 460px;
+  line-height: 0.5;
+  letter-spacing: 3px; }
 
 .about-me {
-  font-size: 80px; }
+  font-size: 80px;
+  opacity: 0; }
 
 .site-container {
   width: 85%;
   margin: 0 auto; }
-
-.bio-container {
-  border: 1px solid blue;
-  background-color: #1C1B1C;
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-  .bio-container .bio {
-    width: 33%;
-    position: absolute;
-    right: 200px; }
-  .bio-container .buttons-flex {
-    display: flex;
-    justify-content: space-around; }
-
-.bio-image {
-  z-index: 1;
-  position: absolute;
-  height: 100%;
-  width: 40%;
-  border: 1px solid #C31826;
-  background-color: #C31826; }
-  .bio-image .img-dk {
-    width: 400px;
-    height: 500px;
-    overflow: hidden;
-    background-size: cover;
-    background-position: center; }
 
 header {
   position: sticky;
@@ -90,6 +60,7 @@ header {
   z-index: 1; }
 
 .logo {
+  font-size: 2em;
   padding-left: 1.5em; }
   .logo a:hover {
     color: #F0CE7B; }

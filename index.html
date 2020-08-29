@@ -6,6 +6,8 @@
   <link rel="stylesheet" href="./stylesheets/styles.css">
   <link rel="stylesheet" href="https://use.typekit.net/yxs6hdl.css">
   <title>Document</title>
+  <!-- JQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js" integrity="sha512-WNLxfP/8cVYL9sj8Jnp6et0BkubLP31jhTG9vhL/F5uEZmg5wEzKoXp1kJslzPQWwPT1eyMiSxlKCgzHLOTOTQ==" crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -14,7 +16,7 @@
     <div class="logo">
       <a href="#">
         <h4>Dareos</h4>
-        <h4>K</h4>
+        <h4>Khalili</h4>
       </a>
     </div>
     <!-- Navbar -->
@@ -29,8 +31,8 @@
   </header>
 
   <!-- Landing -->
-    <section class="profile-media" id="home" style="background-image: url(http://www.stereosis.com/wp-content/uploads/2017/04/Z8-Dareos_Khalili_04.jpg); background-size: cover; width: 100%;">
-
+    <section class="profile-media" id="home" style="height: 120vh;">
+      <img src="http://www.stereosis.com/wp-content/uploads/2017/04/Z8-Dareos_Khalili_04.jpg" style="position:relative; object-fit: cover; width: 100%; height: 100vh; overflow: hidden;">
       <div class="intro-text">
         <h1>Front-End Developer</h1>
         <h1>Fullstack Developer</h1>
@@ -41,7 +43,9 @@
   <!-- About -->
   <div class="site-container">
     <section class="about-me" id="about">
-      <p>
+      <p style="margin-top: 0; padding-top: 0; position: absolute; top: 0">
+        I design and build things online. At the same time I work as an artist, I write, photograph and love to get my hands dirty.
+
         Lorem ipsum, dolor, sit amet consectetur
         adipisicing elit. Repudiandae suscipit aliquam sit amet nesciunt,
         quisquam, aut animi vitae optio at libero quod doloribus mollitia,
@@ -87,8 +91,10 @@
 
   </div>
 
-  <!-- JQuery -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js" integrity="sha512-WNLxfP/8cVYL9sj8Jnp6et0BkubLP31jhTG9vhL/F5uEZmg5wEzKoXp1kJslzPQWwPT1eyMiSxlKCgzHLOTOTQ==" crossorigin="anonymous"></script>
-  <sript src="main.js"></sript>
+  <script src="javascript/main.js"></script>
+  <!-- ScrollMagic -->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/timelinejs/3.6.6/js/timeline-min.js" integrity="sha512-znL7NlNFFvWYptamSie8oZKRUwq+60RJtn8lkeTCFA6wpBr6ViJwabt1f15JcpiNaxhy8tixwCRFVR7kTyfJXA==" crossorigin="anonymous"></script>
 </body>
 </html>
