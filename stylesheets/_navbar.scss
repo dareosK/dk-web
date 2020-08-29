@@ -1,23 +1,32 @@
 // _navbar.scss
-.navbar {
-  position: fixed;
+header {
+  position: sticky;
   top: 0;
-  z-index: 1;
-  background-color: transparent;
-  display: flex;
-  width: 100%;
+  width: 100vw;
   height: 60px;
+  display: flex;
+  line-height: 0.1;
+  justify-content: space-between;
+  background-color: transparent;
+  z-index: 1;
+  // margin: 0 3rem;
+}
+
+.logo {
+  padding-left: 1.5em;
+}
+
+.navbar {
+  padding-right: 1.5em;
 }
 
 .navbar ul {
-  display: flex;
   list-style: none;
-  width: 100%;
-  justify-content: center;
+  text-align: right;
+  justify-content: right;
 }
 
 .navbar ul li {
-  margin: 0 1rem;
   padding: 1rem;
 
   a{
