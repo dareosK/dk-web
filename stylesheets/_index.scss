@@ -7,43 +7,42 @@ body {
   // overflow: hidden;
 }
 
-a {
-  text: white;
-  text-decoration: none;
-}
 
-.site-container {
-  // CSS smooth scroll
-  // overflow-y: scroll;
-  // scroll-behavior: smooth;
-  // scroll-snap-type: y mandatory;
+a {
+  color: white;
+  text-decoration: none;
 }
 
 section {
   display: flex;
+  position: relative;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  text-align: center;
+  text-align: left;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   scroll-snap-align: center;
 }
 
-  .profile-media {
-    margin-bottom: 200px;
-  }
+// .profile-media {
+//   margin-bottom: 600px;
+// }
 
 .intro-text {
-  font-size: 40px;
-  margin-top: 290px;
+  font-size: 3em;
+  position: absolute;
+  top: 460px;
+  line-height: 0.5;
+  letter-spacing: 3px;
 }
 
 .about-me {
-  font-size: 60px;
+  font-size: 80px;
+  opacity: 0;
 }
 
 .site-container {
-  width: 1000px;
+  width: 85%;
   margin: 0 auto;
 }

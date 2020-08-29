@@ -1,48 +1,45 @@
-// _about.scss
+// // _about.scss
 
-// RIGHT - TEXT
-.page-container {
-  position: relative;
-}
+// // RIGHT - TEXT
 
-.bio-container {
-  border: 1px solid blue;
-  // color: white;
-  background-color: #1C1B1C;
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+// .bio-container {
+//   border: 1px solid blue;
+//   // color: white;
+//   background-color: #1C1B1C;
+//   position: absolute;
+//   height: 100%;
+//   width: 100%;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
 
-  .bio {
-    width: 33%;
-    position: absolute;
-    right: 200px;
-  }
+//   .bio {
+//     width: 33%;
+//     position: absolute;
+//     right: 200px;
+//   }
 
-  .buttons-flex {
-    display: flex;
-    justify-content: space-around;
-  }
-}
+//   .buttons-flex {
+//     display: flex;
+//     justify-content: space-around;
+//   }
+// }
 
-// LEFT - IMAGE
-.bio-image {
-  z-index: 1;
-  position: absolute;
-  height: 100%;
-  width: 40%;
-  border: 1px solid $primary-color;
-  background-color: $primary-color;
+// // LEFT - IMAGE
+// .bio-image {
+//   z-index: 1;
+//   position: absolute;
+//   height: 100%;
+//   width: 40%;
+//   border: 1px solid $primary-color;
+//   background-color: $primary-color;
 
-  .img-dk {
-    width: 400px;
-    height: 500px;
-    overflow: hidden;
-    background-size: cover;
-    background-position: center;
-  }
-}
+//   .img-dk {
+//     width: 400px;
+//     height: 500px;
+//     overflow: hidden;
+//     background-size: cover;
+//     background-position: center;
+//   }
+// }
 

@@ -2,20 +2,25 @@
 $primary-color: #C31826;
 $gold: #F0CE7B;
 
+// FONTS
+$main-font: proxima-nova-condensed, sans-serif;
+
 * {
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: gill-sans-nova-shadowed-outl, sans-serif;
+  font-family: $main-font;
   font-weight: 400;
   font-style: normal;
-  line-height: 1.6;
+  line-height: 1.2;
 }
 
-.page-container {
-  height: 100vh;
-  width: 100vw;
+a {
+  text-decoration: none;
+  text-transform: uppercase;;
+  color: white;
+  &:hover {
+    color: $primary-color;
+  }
 }
-
-
