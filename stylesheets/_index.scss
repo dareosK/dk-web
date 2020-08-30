@@ -3,8 +3,6 @@
 body {
   background-color: black;
   color: white;
-  // CSS smooth scroll
-  // overflow: hidden;
 }
 
 
@@ -21,18 +19,23 @@ section {
   justify-content: center;
   text-align: left;
   width: 100%;
-  min-height: 100vh;
+  // min-height: 100vh;
+  height: 100vh;
   scroll-snap-align: center;
+  overflow: hidden;
 }
 
-// .profile-media {
-//   margin-bottom: 600px;
-// }
+.profile-media {
+  margin-bottom: 100vh;
+}
 
 .intro-text {
-  font-size: 3em;
+  color: $gold;
+  font-size: 2em;
   position: absolute;
-  top: 460px;
+  bottom: 1.5em;
+  right: 1.5em;
+  text-align: right;
   line-height: 0.5;
   letter-spacing: 3px;
 }
@@ -43,6 +46,6 @@ section {
 }
 
 .site-container {
-  width: 85%;
+  width: 80%;
   margin: 0 auto;
 }
