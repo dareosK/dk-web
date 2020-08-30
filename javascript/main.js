@@ -16,19 +16,19 @@ $(window).scroll(function() {
 
 // hides the footer when scroll under one window height
 
-const hideFooter = () => {
-const footer = document.querySelector('#footer');
-  if (footer) {
-    document.addEventListener('scroll', () => {
-      if (window.scrollY >= 4 * window.innerHeight) {
-        footer.classList.add('hidden');
-      } else {
-        footer.classList.remove('hidden');
-      }
-    });
-  }
-}
+// const hideFooter = () => {
+// const footer = document.querySelector('#footer');
+//   if (footer) {
+//     document.addEventListener('scroll', () => {
+//       if (window.scrollY >= 4 * window.innerHeight) {
+//         footer.classList.add('hidden');
+//       } else {
+//         footer.classList.remove('hidden');
+//       }
+//     });
+//   }
+// }
 
-hideFooter();
+// hideFooter();
 
 // export { hideFooter };

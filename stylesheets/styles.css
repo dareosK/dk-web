@@ -33,9 +33,7 @@ section {
   justify-content: center;
   text-align: left;
   width: 100%;
-  height: 100vh;
-  scroll-snap-align: center;
-  overflow: hidden; }
+  height: 100vh; }
 
 .profile-media {
   margin-bottom: 100vh; }
@@ -51,12 +49,27 @@ section {
   letter-spacing: 3px; }
 
 .about-me {
-  font-size: 80px;
+  font-size: 90px;
   opacity: 0; }
 
 .site-container {
   width: 80%;
   margin: 0 auto; }
+
+.hire-me {
+  border-bottom: 1px solid; }
+  .hire-me:hover {
+    font-style: italic; }
+
+a + span {
+  display: none;
+  background-size: cover;
+  width: 500px;
+  height: 500px;
+  position: absolute; }
+
+a:hover + span {
+  display: block; }
 
 header {
   position: fixed;
