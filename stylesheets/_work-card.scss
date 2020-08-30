@@ -1,0 +1,13 @@
+// _work-card.scss
+
+.work-card {
+  color: black;
+  height: 500px;
+  width: 800px;
+  background-color: white;
+  transform: translateX(100px);
+}
+
+.scroll-in-up {
+  transform: translateX(0px);
+}

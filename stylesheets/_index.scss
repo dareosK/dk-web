@@ -19,10 +19,7 @@ section {
   justify-content: center;
   text-align: left;
   width: 100%;
-  // min-height: 100vh;
   height: 100vh;
-  scroll-snap-align: center;
-  overflow: hidden;
 }
 
 .profile-media {
@@ -41,11 +38,32 @@ section {
 }
 
 .about-me {
-  font-size: 80px;
+  font-size: 90px;
   opacity: 0;
 }
 
 .site-container {
   width: 80%;
   margin: 0 auto;
+}
+
+.hire-me {
+  border-bottom: 1px solid;
+  // border-radius: 5px;
+  // padding: 4px 10px;
+  &:hover {
+    font-style: italic;
+  }
+}
+
+a + span {
+  display: none;
+  background-size: cover;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+}
+
+a:hover + span {
+  display: block;
 }
