@@ -11,3 +11,24 @@ $(window).scroll(function() {
     opacity: ( 0 + scroll / 9 ) + "%"
   })
 });
+
+
+
+// hides the footer when scroll under one window height
+
+const hideFooter = () => {
+const footer = document.querySelector('#footer');
+  if (footer) {
+    document.addEventListener('scroll', () => {
+      if (window.scrollY >= 4 * window.innerHeight) {
+        footer.classList.add('hidden');
+      } else {
+        footer.classList.remove('hidden');
+      }
+    });
+  }
+}
+
+hideFooter();
+
+// export { hideFooter };
