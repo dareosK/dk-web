@@ -14,14 +14,6 @@ $(document).ready(function() {
     })
   });
 
-  // init Controller
-  const controller = new ScrollMagic.Controller();
-
-  const workScene = ScrollMagic.Scene({
-    triggerElement: '#gallerie'
-  })
-  .setClassToggle('#gallerie', 'scroll-in-up')
-  .addToController();
 
   // hides the footer when scroll under one window height
 
@@ -43,3 +35,15 @@ $(document).ready(function() {
   // export { hideFooter };
 
 });
+
+function scrollMagic {
+  // init Controller
+  const controller = new ScrollMagic.Controller();
+
+  const workScene = ScrollMagic.Scene({
+    triggerElement: '#gallerie'
+  })
+  .setClassToggle('#gallerie', 'scroll-in-up')
+  .addToController();
+};
+scrollMagic();
