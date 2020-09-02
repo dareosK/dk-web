@@ -1,5 +1,8 @@
-$(document).ready(function() {
+// //example code GSAP
+// gsap.to("#gallerie", {duration:2, x:300})
 
+$(document).ready(function() {
+// import simpleParallax from 'simple-parallax-js';
   $(window).scroll(function() {
     let scroll = $(window).scrollTop();
     $(".profile-media video").css({
@@ -13,37 +16,38 @@ $(document).ready(function() {
       opacity: ( 0 + scroll / 9 ) + "%"
     })
   });
-
-
-  // hides the footer when scroll under one window height
-
-  // const hideFooter = () => {
-  // const footer = document.querySelector('#footer');
-  //   if (footer) {
-  //     document.addEventListener('scroll', () => {
-  //       if (window.scrollY >= 4 * window.innerHeight) {
-  //         footer.classList.add('hidden');
-  //       } else {
-  //         footer.classList.remove('hidden');
-  //       }
-  //     });
-  //   }
-  // }
-
-  // hideFooter();
-
-  // export { hideFooter };
-
 });
 
-function scrollMagic {
-  // init Controller
-  const controller = new ScrollMagic.Controller();
+// function scrollMagic {
+//   // init Controller
+//   const controller = new ScrollMagic.Controller();
 
-  const workScene = ScrollMagic.Scene({
-    triggerElement: '#gallerie'
-  })
-  .setClassToggle('#gallerie', 'scroll-in-up')
-  .addToController();
-};
-scrollMagic();
+//   const workScene = ScrollMagic.Scene({
+//     triggerElement: '#gallerie'
+//   })
+//   .setClassToggle('#gallerie', 'scroll-in-up')
+//   .addToController();
+// };
+// scrollMagic();
+
+// $(function () { // wait for document ready
+//   // init
+//   var controller = new ScrollMagic.Controller();
+
+//   // define movement of panels
+//   var wipeAnimation = new TimelineMax()
+//     .fromTo("section.panel.turqoise", 1, {x: "-100%"}, {x: "0%", ease: Linear.easeNone})  // in from left
+//     .fromTo("section.panel.green",    1, {x:  "100%"}, {x: "0%", ease: Linear.easeNone})  // in from right
+//     .fromTo("section.panel.bordeaux", 1, {y: "-100%"}, {y: "0%", ease: Linear.easeNone}); // in from top
+
+//   // create scene to pin and link animation
+//   new ScrollMagic.Scene({
+//       triggerElement: "#pinContainer",
+//       triggerHook: "onLeave",
+//       duration: "300%"
+//     })
+//     .setPin("#pinContainer")
+//     .setTween(wipeAnimation)
+//     .addIndicators() // add indicators (requires plugin)
+//     .addTo(controller);
+// });
