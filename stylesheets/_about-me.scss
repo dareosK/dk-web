@@ -1,7 +1,11 @@
 // _about-me.scss
 .about-me {
+  min-height: 100vh;
   font-size: 90px;
-  opacity: 0;
+  background-color: black;
+  // padding-top: 80vh;
+  padding: 80px;
+  // opacity: 0; // <- uncomment only in conjunction with the first function in main.js
   // color: $text !important;
 }
 
