@@ -1,6 +1,7 @@
 // COLOURS
 $primary-color: #C31826;
 $gold: #F0CE7B;
+$text: #E0E0E0;
 
 // FONTS
 $main-font: proxima-nova-condensed, sans-serif;
@@ -17,6 +18,8 @@ body {
   line-height: 1.2;
   padding: 0 !important;
   margin: 0 !important;
+  width: 100vw !important;
+  overflow-x: hidden;
 }
 
 a {

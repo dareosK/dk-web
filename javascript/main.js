@@ -1,10 +1,13 @@
-$(document).ready(function() {
+// //example code GSAP
+// gsap.to("#gallerie", {duration:2, x:300})
 
+$(document).ready(function() {
+// import simpleParallax from 'simple-parallax-js';
   $(window).scroll(function() {
-    let scroll = $(window).scrollTop();
+    const scroll = $(window).scrollTop();
     $(".profile-media video").css({
       width: ( 100 + scroll / 5 ) + "%",
-      opacity: ( 100 - scroll / 8 ) + "%"
+      opacity: ( 100 - scroll / 15 ) + "%"
     }),
     $(".intro-text").css({
       opacity: ( 100 - scroll / 2 ) + "%"
@@ -13,33 +16,30 @@ $(document).ready(function() {
       opacity: ( 0 + scroll / 9 ) + "%"
     })
   });
-
-  // init Controller
-  const controller = new ScrollMagic.Controller();
-
-  const workScene = ScrollMagic.Scene({
-    triggerElement: '#gallerie'
-  })
-  .setClassToggle('#gallerie', 'scroll-in-up')
-  .addToController();
-
-  // hides the footer when scroll under one window height
-
-  // const hideFooter = () => {
-  // const footer = document.querySelector('#footer');
-  //   if (footer) {
-  //     document.addEventListener('scroll', () => {
-  //       if (window.scrollY >= 4 * window.innerHeight) {
-  //         footer.classList.add('hidden');
-  //       } else {
-  //         footer.classList.remove('hidden');
-  //       }
-  //     });
-  //   }
-  // }
-
-  // hideFooter();
-
-  // export { hideFooter };
-
 });
+
+$(function () { // wait for document ready
+    // init
+    const controller = new ScrollMagic.Controller({
+      globalSceneOptions: {
+        triggerHook: 'onLeave',
+        offset: 700,
+        duration: "100%" // this works just fine with duration 0 as well
+        // However with large numbers (>20) of pinned sections display errors can occur so every section should be unpinned once it's covered by the next section.
+        // Normally 100% would work for this, but here 200% is used, as Panel 3 is shown for more than 100% of scrollheight due to the pause.
+      }
+    });
+
+    // get all sections
+    const sections = document.querySelectorAll("section.panel");
+
+    // create scene for every slide
+    for (let i=0; i<sections.length; i++) {
+      new ScrollMagic.Scene({
+          triggerElement: sections[i]
+        })
+        .setPin(sections[i], {pushFollowers: false})
+        .addIndicators() // add indicators (requires plugin)
+        .addTo(controller);
+    }
+  });
