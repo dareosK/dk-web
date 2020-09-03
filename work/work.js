@@ -1,4 +1,4 @@
 // work.js
-// init Controller
-console.log("hi")
-
+$(function() { // onReady
+    const controller = new ScrollMagic.Controller();
+});
