@@ -1,7 +1,10 @@
 // work.js
 $(function() { // onReady
+  // init one controller
     const controller = new ScrollMagic.Controller();
 
+
+  //SCENE ONE
     const containerScene = new ScrollMagic.Scene({
         triggerElement: '#container',
         duration: 500
@@ -10,15 +13,16 @@ $(function() { // onReady
     .addIndicators()
     .addTo(controller);
 
-  //   const blockTween = new TweenMax.to('#block', 1.5, {
-  //     backgroundColor: 'red'
-  // });
+    const blockTween = new TweenMax.to('#block', 1.5, {
+      backgroundColor: 'red'
+  });
 
-  //   const containerScene = new ScrollMagic.Scene({
-  //     triggerElement: '#container'
-  // })
-  // .setTween(blockTween)
-  // .addIndicators()
-  // .addTo(controller);
+  // SCENE TWO
+    const tweenScene = new ScrollMagic.Scene({
+      triggerElement: '#container'
+  })
+  .setTween(blockTween)
+  .addIndicators()
+  .addTo(controller);
 
 });
