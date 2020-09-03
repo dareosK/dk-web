@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "animate.css": "^4.1.0",
     "gsap": "^3.5.1",
     "jquery-parallax.js": "^1.5.0",
     "scrollmagic": "^2.0.7",

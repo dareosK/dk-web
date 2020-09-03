@@ -106,7 +106,7 @@ footer {
   min-height: 100vh;
   font-size: 90px;
   background-color: black;
-  padding: 80px; }
+  padding: 40px; }
 
 a + span {
   display: none;
@@ -119,7 +119,6 @@ a:hover + span {
   display: block; }
 
 .profile-media {
-  margin-bottom: 60vh;
   height: 100vh !important; }
 
 .intro-text {
@@ -132,9 +131,10 @@ a:hover + span {
   line-height: 0.5;
   letter-spacing: 3px; }
 
-.hire-me {
-  border-bottom: 1px solid; }
-  .hire-me:hover {
-    font-style: italic; }
+.underline {
+  height: 1px;
+  background-color: white;
+  margin-bottom: -0.7em;
+  margin-top: -1em; }
 
 /*# sourceMappingURL=styles.css.map */
