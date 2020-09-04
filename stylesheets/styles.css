@@ -17,7 +17,10 @@ a {
   text-transform: uppercase;
   color: white; }
   a:hover {
-    color: #C31826; }
+    text-decoration: line-through;
+    outline-width: thick;
+    color: #C31826;
+    text-shadow: 0px 0px 9px #4c0914; }
 
 body {
   background-color: black;
@@ -55,7 +58,7 @@ header {
   font-size: 1.85em;
   padding-left: 1.5em; }
   .logo a:hover {
-    color: #F0CE7B; }
+    color: #C31826; }
 
 .navbar {
   padding-right: 1.5em;
@@ -78,7 +81,10 @@ header {
   text-transform: uppercase;
   color: white; }
   .contact-item a:hover {
-    color: #C31826; }
+    text-decoration: line-through;
+    outline-width: thick;
+    color: #C31826;
+    text-shadow: 0px 0px 9px #4c0914; }
 
 footer {
   position: fixed;
@@ -118,7 +124,8 @@ a + span {
   background-size: cover;
   width: 500px;
   height: 500px;
-  position: absolute; }
+  position: absolute;
+  box-shadow: 0px 0px 202px -44px #C31826; }
 
 a:hover + span {
   display: block; }
@@ -127,7 +134,6 @@ a:hover + span {
   height: 100vh !important; }
 
 .intro-text {
-  color: #F0CE7B;
   font-size: 2em;
   position: absolute;
   bottom: 1.5em;

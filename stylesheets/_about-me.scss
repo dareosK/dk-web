@@ -15,6 +15,7 @@ a + span {
   width: 500px;
   height: 500px;
   position: absolute;
+  box-shadow: 0px 0px 202px -44px $primary-color;
 }
 
 a:hover + span {
