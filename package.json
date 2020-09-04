@@ -5,5 +5,13 @@
     "jquery-parallax.js": "^1.5.0",
     "scrollmagic": "^2.0.7",
     "simple-parallax-js": "^5.6.2"
-  }
+  },
+  "name": "DareosK",
+  "version": "1.0.0",
+  "description": "DareosK front end and fullstack developer",
+  "main": "main.js",
+  "repository": "git@github.com:dareosK/dk-web.git",
+  "author": "Dareos Khalili <khalilidareos@gmail.com>",
+  "license": "MIT",
+  "private": false
 }

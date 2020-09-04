@@ -1,5 +1,5 @@
 // _about-me.scss
-.about-me {
+.about-me p:not(:first-child) {
   min-height: 100vh;
   font-size: 90px;
   background-color: black;
