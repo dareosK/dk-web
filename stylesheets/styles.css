@@ -88,6 +88,7 @@ header {
     text-shadow: 0px 0px 9px #b40914; }
 
 .contact {
+  border: 1px solid white;
   box-shadow: inset 0px 0px 802px -74px #C31826; }
 
 .contact-wrap {
@@ -127,7 +128,24 @@ footer {
   height: 700px;
   width: 580px;
   box-shadow: 0px 0px 202px -44px #C31826;
-  background-color: black; }
+  background-color: black;
+  border: 1px solid black;
+  overflow: hidden;
+  background-size: cover; }
+  .work-card img {
+    width: 100%; }
+  .work-card h3 {
+    padding: 0px 48px; }
+
+.work {
+  border: 1px solid white;
+  margin-top: 2vh; }
+
+.card-icons {
+  display: inline-block;
+  color: white;
+  font-size: 30px;
+  padding: 30px 48px 0px 48px; }
 
 .about-me p:not(:first-child) {
   font-size: 90px;
@@ -146,7 +164,14 @@ a:hover + span {
   display: block; }
 
 .about-me {
+  border: 1px solid white;
   box-shadow: inset 0px 0px 802px -74px #C31826; }
+
+.about-me-text {
+  text-decoration: overline; }
+
+.about-me-text-1 {
+  text-decoration: underline; }
 
 .profile-media {
   height: 100vh !important; }

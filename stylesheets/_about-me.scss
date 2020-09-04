@@ -1,20 +1,10 @@
 // _about-me.scss
 .about-me p:not(:first-child) {
-  // min-height: 100vh;
   font-size: 90px;
   background-color: transparent;
-  // padding-top: 80vh;
   padding: 40px;
-  // transition: transform 0.25s;
-  // will-change: transform;
-  // opacity: 0; // <- uncomment only in conjunction with the first function in main.js
-  // color: $text !important;
 }
 
-// .about-me p {
-//   transition: transform 0.25s;
-//   will-change: transform;
-// }
 
 a + span {
   display: none;
@@ -30,5 +20,14 @@ a:hover + span {
 }
 
 .about-me {
+  border: 1px solid white;
   box-shadow: inset 0px 0px 802px -74px $primary-color;
+}
+
+.about-me-text {
+  text-decoration: overline;
+}
+
+.about-me-text-1 {
+  text-decoration: underline;
 }
