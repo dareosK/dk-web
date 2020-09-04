@@ -88,7 +88,7 @@ header {
     text-shadow: 0px 0px 9px #b40914; }
 
 .contact {
-  box-shadow: inset 0px 0px 202px -44px #C31826; }
+  box-shadow: inset 0px 0px 802px -74px #C31826; }
 
 .contact-wrap {
   height: 94vh;
@@ -145,7 +145,7 @@ a:hover + span {
   display: block; }
 
 .about-me {
-  box-shadow: inset 0px 0px 202px -44px #C31826; }
+  box-shadow: inset 0px 0px 802px -74px #C31826; }
 
 .profile-media {
   height: 100vh !important; }
