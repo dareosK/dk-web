@@ -5,8 +5,8 @@ $(document).ready(function() {
 // import simpleParallax from 'simple-parallax-js';
   $(window).scroll(function() {
     const scroll = $(window).scrollTop();
-    $(".profile-media video").css({
-      width: ( 100 + scroll / 5 ) + "%",
+    $(".hero").css({
+      width: ( 100 + scroll / 18 ) + "%",
       opacity: ( 100 - scroll / 15 ) + "%"
     }),
     $(".intro-text").css({
@@ -17,32 +17,45 @@ $(document).ready(function() {
     })
   });
 
-// // Makes letters warp on scroll
-// const content = document.querySelectorAll(".about-me p");
-// let currentPos = window.pageYOffset;
-// console.log(currentPos);
+// Makes letters warp on scroll
+const content = document.querySelectorAll(".test-text");
+let currentPos = window.pageYOffset;
 
-// const callDistort = function () {
-//     const newPos = window.pageYOffset;
-//     const diff = newPos - currentPos;
-//     const speed = diff * 0.08;
+const callDistort = function () {
+    const newPos = window.pageYOffset;
+    const diff = newPos - currentPos;
+    const speed = diff * 0.02;
 
-//     content[1].style.transform = "skewY(" + speed + "deg)";
-//     currentPos = newPos;
-//     requestAnimationFrame(callDistort);
-// };
+    for (let i=0; i<content.length; i++)
+    content[i].style.transform = "skewY(" + speed + "deg)";
+    currentPos = newPos;
+    requestAnimationFrame(callDistort);
+};
 
-// callDistort();
+callDistort();
 
 
 $('body').ripples({
-  resolution: 512,
-  dropRadius: 20,
-  perturbance: 0.04,
+  resolution: 800,
+  dropRadius: 50,
+  perturbance: 0.84,
 });
 
-
 });
+
+// $('.profile-media img').ripples("drop", 1000, 1000, 20, 100)
+setInterval(function() {
+    const $el = $('body');
+    console.log($el);
+    var x = Math.random() * $el.outerWidth();
+    var y = Math.random() * $el.outerHeight();
+    var dropRadius = 15;
+    var strength = 0.04 + Math.random() * 0.02;
+
+    $el.ripples('drop', x, y, dropRadius, strength);
+  }, 400);
+// });
+
 // $(function () { // wait for document ready
 //     // init
 //     const controller = new ScrollMagic.Controller({
