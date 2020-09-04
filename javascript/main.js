@@ -16,8 +16,33 @@ $(document).ready(function() {
       opacity: ( 0 + scroll / 9 ) + "%"
     })
   });
+
+// // Makes letters warp on scroll
+// const content = document.querySelectorAll(".about-me p");
+// let currentPos = window.pageYOffset;
+// console.log(currentPos);
+
+// const callDistort = function () {
+//     const newPos = window.pageYOffset;
+//     const diff = newPos - currentPos;
+//     const speed = diff * 0.08;
+
+//     content[1].style.transform = "skewY(" + speed + "deg)";
+//     currentPos = newPos;
+//     requestAnimationFrame(callDistort);
+// };
+
+// callDistort();
+
+
+$('body').ripples({
+  resolution: 512,
+  dropRadius: 20,
+  perturbance: 0.04,
 });
 
+
+});
 // $(function () { // wait for document ready
 //     // init
 //     const controller = new ScrollMagic.Controller({
