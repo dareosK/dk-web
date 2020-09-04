@@ -30,5 +30,14 @@ a:hover + span {
 }
 
 .about-me {
+  border: 1px solid white;
   box-shadow: inset 0px 0px 802px -74px $primary-color;
+}
+
+.about-me-text {
+  text-decoration: overline;
+}
+
+.about-me-text-1 {
+  text-decoration: underline;
 }
