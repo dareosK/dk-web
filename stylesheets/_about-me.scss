@@ -1,20 +1,10 @@
 // _about-me.scss
 .about-me p:not(:first-child) {
-  // min-height: 100vh;
   font-size: 90px;
   background-color: transparent;
-  // padding-top: 80vh;
   padding: 40px;
-  // transition: transform 0.25s;
-  // will-change: transform;
-  // opacity: 0; // <- uncomment only in conjunction with the first function in main.js
-  // color: $text !important;
 }
 
-// .about-me p {
-//   transition: transform 0.25s;
-//   will-change: transform;
-// }
 
 a + span {
   display: none;
