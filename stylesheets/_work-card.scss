@@ -12,8 +12,18 @@
 //   transform: translateX(0px);
 // }
 
-.work {
+.work-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   // padding-top: 100vh;
-  background-color: red;
+  // background-color: red;
   height: 100vh;
+}
+
+.work-card {
+  height: 700px;
+  width: 580px;
+  box-shadow: 0px 0px 202px -44px $primary-color;
 }
