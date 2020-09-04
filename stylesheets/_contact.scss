@@ -1,6 +1,6 @@
 // _contact.scss
-.contact {
-  // background-color: blue;
+.contact p {
+  align-items: flex-start;
 }
 .contact-item {
   font-size: 80px;
@@ -16,6 +16,21 @@
     text-decoration: line-through;
     outline-width: thick;
     color: $primary-color;
-    text-shadow: 0px 0px 9px rgba(76, 9, 20, 1);
+    text-shadow: 0px 0px 9px rgba(180, 9, 20, 1);
   }
+}
+
+.contact {
+  box-shadow: inset 0px 0px 202px -44px $primary-color;
+}
+
+.contact-wrap {
+  height: 94vh;
+    display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  width: 100%;
 }
