@@ -37,7 +37,32 @@
 }
 
 @media(max-width: 450px) {
+  .contact-wrap {
+    height: auto;
+    padding: 80px 0;
+  }
+
   .contact-item {
     font-size: 35px;
+  }
+
+  .contact {
+    border: 1px solid black;
+    box-shadow: 0px 0px 202px -44px $primary-color;
+    margin-bottom: 100px;
+  }
+}
+
+@media(max-width: 380px) {
+    .contact-wrap {
+      padding: 60px 0
+    }
+
+    .contact-item{
+      font-size: 32px;
+    }
+
+    .contact {
+    margin-bottom: 60px;
   }
 }
