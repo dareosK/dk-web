@@ -11,10 +11,10 @@ $(document).ready(function() {
     }),
     $(".intro-text").css({
       opacity: ( 100 - scroll / 2 ) + "%"
-    }),
-    $(".about-me").css({
-      opacity: ( 0 + scroll / 9 ) + "%"
     })
+    // $(".about-me").css({
+    //   opacity: ( 0 + scroll / 9 ) + "%"
+    // })
   });
 
 // Makes letters warp on scroll
