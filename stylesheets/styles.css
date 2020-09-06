@@ -203,9 +203,23 @@ a:hover + span {
 
 @media (max-width: 450px) {
   .about-me p:not(:first-child) {
-    font-size: 35px;
-    background-color: transparent;
-    padding: 10px; } }
+    font-size: 20px;
+    padding: 10px; }
+
+  .about-me {
+    border: 1px solid transparent;
+    box-shadow: 0px 0px 402px -74px #C31826; }
+
+  .about-me-text, .about-me-text-1 {
+    text-decoration: none; }
+
+  a + span {
+    display: none;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    box-shadow: 0px 0px 202px -44px #C31826; } }
 .profile-media {
   height: 100vh !important; }
 
@@ -356,6 +370,9 @@ a:hover + span {
   text-shadow: 0px 0px 9px #640914; }
 
 @media (max-width: 450px) {
+  .in-between {
+    height: 60vh; }
+
   #welcome-animated-147 {
     font-size: 4.1em;
     margin: 4px auto; }
