@@ -1,0 +1,305 @@
+// _in-betweens.scss
+// #section-3 {
+//   display:none;
+// }
+//WELCOME
+#welcome-15 {
+  font-size: 15em;
+  position: absolute;
+  margin: 0 auto;
+  text-shadow: 0px 0px 9px rgba(100, 9, 20, 1);
+}
+
+#welcome-animated-147 {
+  font-size: 14.7em;
+  position: absolute;
+  margin: 20px auto;
+  text-shadow: 0px 0px 9px rgba(100, 9, 20, 1);
+}
+
+#welcome-147 {
+  font-size: 14.7em;
+  position: absolute;
+  margin: 20px auto;
+  text-shadow: 0px 0px 9px rgba(100, 9, 20, 1);
+}
+
+#welcome-145 {
+  font-size: 14.5em;
+  position: absolute;
+  margin: 0 auto;
+  text-shadow: 0px 0px 9px rgba(100, 9, 20, 1);
+}
+
+#welcome-143 {
+  font-size: 14.3em;
+  position: absolute;
+  margin: 20px auto;
+  text-shadow: 0px 0px 9px rgba(100, 9, 20, 1);
+}
+
+
+// WORK
+#work-15 {
+  font-size: 15em;
+  position: absolute;
+  margin: 0 auto;
+  text-shadow: 0px 0px 9px rgba(100, 9, 20, 1);
+}
+
+#work-147 {
+  font-size: 14.7em;
+  position: absolute;
+  margin: 20px auto;
+  text-shadow: 0px 0px 9px rgba(100, 9, 20, 1);
+}
+
+#work-145 {
+  font-size: 14.5em;
+  position: absolute;
+  margin: 0 auto;
+  text-shadow: 0px 0px 9px rgba(100, 9, 20, 1);
+}
+
+#work-143 {
+  font-size: 14.3em;
+  position: absolute;
+  margin: 20px auto;
+  text-shadow: 0px 0px 9px rgba(100, 9, 20, 1);
+}
+
+// SAY HI!
+#hi-15 {
+  font-size: 15em;
+  position: absolute;
+  margin: 0 auto;
+  text-shadow: 0px 0px 9px rgba(100, 9, 20, 1);
+}
+
+#hi-147 {
+  font-size: 14.7em;
+  position: absolute;
+  margin: 20px auto;
+  text-shadow: 0px 0px 9px rgba(100, 9, 20, 1);
+}
+
+#hi-145 {
+  font-size: 14.5em;
+  position: absolute;
+  margin: 0 auto;
+  text-shadow: 0px 0px 9px rgba(100, 9, 20, 1);
+}
+
+#hi-142 {
+  font-size: 14.2em;
+  position: absolute;
+  margin: 20px auto;
+  text-shadow: 0px 0px 9px rgba(100, 9, 20, 1);
+}
+
+// MEDIA QUERIES
+@media(max-width: 450px) {
+  #welcome-animated-147 {
+    font-size: 4.1em;
+    margin: 4px auto;
+  }
+
+  #welcome-147 {
+    font-size: 4.1em;
+    margin: 4px auto;
+  }
+
+  #welcome-15 {
+    font-size: 4.2em;
+    margin: 0 auto;
+  }
+
+  #welcome-145 {
+    font-size: 3.9em;
+    margin: 0 auto;
+  }
+
+  #welcome-143 {
+    font-size: 3.7em;
+    margin: 4px auto;
+  }
+
+  // WORK QUERIES 450px
+  #work-15 {
+    font-size: 6.5em;
+  }
+
+  #work-147 {
+    font-size: 6.4em;
+    margin: 5px auto;
+  }
+
+  #work-145 {
+    font-size: 6.2em;
+  }
+
+  #work-143 {
+    font-size: 6em;
+    margin: 5px auto;
+  }
+
+  // SAY HI! QUERIES 450px
+  #hi-15 {
+    font-size: 5.8em;
+    margin: 0 auto;
+  }
+
+  #hi-147 {
+    font-size: 5.5em;
+    margin: 4.5px auto;
+  }
+
+  #hi-145 {
+    font-size: 5.2em;
+    margin: 0 auto;
+  }
+
+  #hi-142 {
+    font-size: 5em;
+    margin: 4.5px auto;
+  }
+}
+
+
+
+@media(max-width: 380px) {
+  #welcome-animated-147 {
+    font-size: 3.3em;
+    margin: 5px auto;
+  }
+
+  #welcome-147 {
+    font-size: 3.3em;
+    margin: 5px auto;
+  }
+
+  #welcome-15 {
+    font-size: 3.4em;
+  }
+
+  #welcome-145 {
+    font-size: 3.1em;
+  }
+
+  #welcome-143 {
+    font-size: 2.9em;
+    margin: 5px auto;
+  }
+
+
+
+  // WORK QUERIES 380px
+  #work-15 {
+    font-size: 6.1em;
+  }
+
+  #work-147 {
+    font-size: 6.0em;
+    margin: 5px auto;
+  }
+
+  #work-145 {
+    font-size: 5.8em;
+  }
+
+  #work-143 {
+    font-size: 5.6em;
+    margin: 5px auto;
+  }
+
+  // SAY HI! QUERIES 380px
+  #hi-15 {
+    font-size: 5.3em;
+    margin: 0 auto;
+  }
+
+  #hi-147 {
+    font-size: 5em;
+    margin: 5px auto;
+  }
+
+  #hi-145 {
+    font-size: 4.8em;
+    margin: 0 auto;
+  }
+
+  #hi-142 {
+    font-size: 4.5em;
+    margin: 5px auto;
+  }
+}
+
+@media(max-width: 330px) {
+  #welcome-animated-147 {
+    font-size: 3.1em;
+    margin: 5px auto;
+  }
+
+  #welcome-147 {
+    font-size: 3.1em;
+    margin: 5px auto;
+  }
+
+  #welcome-15 {
+    font-size: 3.2em;
+    margin: 0 auto;
+  }
+
+
+  #welcome-145 {
+    font-size: 2.9em;
+    margin: 0 auto;
+  }
+
+  #welcome-143 {
+    font-size: 2.7em;
+    margin: 5px auto;
+  }
+
+  // WORK QUERIES 330px
+  #work-15 {
+    font-size: 5.1em;
+  }
+
+  #work-147 {
+    font-size: 5.0em;
+    margin: 5px auto;
+  }
+
+  #work-145 {
+    font-size: 4.8em;
+  }
+
+  #work-143 {
+    font-size: 4.6em;
+    margin: 5px auto;
+  }
+
+  // SAY HI! QUERIES 330px
+  #hi-15 {
+    font-size: 4.3em;
+    margin: 0 auto;
+  }
+
+  #hi-147 {
+    font-size: 4em;
+    margin: 5px auto;
+  }
+
+  #hi-145 {
+    font-size: 3.8em;
+    margin: 0 auto;
+  }
+
+  #hi-142 {
+    font-size: 3.5em;
+    margin: 5px auto;
+  }
+}
+
+

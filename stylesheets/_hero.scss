@@ -29,3 +29,63 @@
   overflow: hidden;
   background-image: url("/stylesheets/images/Hero.jpg");
 }
+
+
+
+@media(max-width: 450px) {
+  .profile-media {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .intro-text {
+    font-size: 1em;
+    position: absolute;
+    bottom: 5em;
+    right: 3.9em;
+    text-align: center;
+    line-height: 0.9;
+    letter-spacing: 1px;
+  }
+
+  #hire-me {
+    display:none;
+  }
+
+  .underline {
+    height: 2px;
+    background-color: white;
+    margin-bottom: -0.7em;
+    margin-top: -1em;
+  }
+
+  .hero {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    // width: 100vw;
+    overflow: hidden;
+    margin: 0;
+  }
+}
+
+@media(max-width: 380px) {
+  .intro-text {
+    font-size: 0.9em;
+    right: 4.2em;
+    letter-spacing: 1px;
+  }
+}
+
+@media(max-width: 330px) {
+  .intro-text {
+    font-size: 0.7em;
+    position: absolute;
+    bottom: 5em;
+    right: 5em;
+    text-align: center;
+    line-height: 0.9;
+    letter-spacing: 1px;
+  }
+}

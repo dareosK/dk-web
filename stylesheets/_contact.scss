@@ -2,6 +2,7 @@
 .contact p {
   align-items: flex-start;
 }
+
 .contact-item {
   font-size: 80px;
 }
@@ -33,4 +34,10 @@
   justify-content: center;
   text-align: left;
   width: 100%;
+}
+
+@media(max-width: 450px) {
+  .contact-item {
+    font-size: 35px;
+  }
 }
