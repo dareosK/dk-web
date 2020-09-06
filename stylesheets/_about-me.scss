@@ -5,6 +5,9 @@
   padding: 40px;
 }
 
+.about-me a {
+  text-decoration: underline;
+}
 
 a + span {
   display: none;
@@ -41,7 +44,7 @@ a:hover + span {
 
   .about-me {
     border: 1px solid transparent;
-    box-shadow:  0px 0px 402px -74px $primary-color;
+    box-shadow:  0px 0px 602px -74px $primary-color;
   }
 
   .about-me-text, .about-me-text-1 {

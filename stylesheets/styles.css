@@ -37,6 +37,9 @@ a {
     color: #C31826;
     text-shadow: 0px 0px 9px #b40914; }
 
+@media (max-width: 450px) {
+  .test-text {
+    font-size: 0.4em; } }
 .site-container {
   width: 80%;
   margin: 0 auto; }
@@ -164,21 +167,45 @@ footer {
     width: 100%; }
   .work-card h3 {
     padding: 0px 48px; }
+  .work-card .card-icons {
+    display: inline-block;
+    color: white;
+    font-size: 30px;
+    padding: 30px 48px 0px 48px; }
 
 .work {
   border: 1px solid white;
   margin-top: 2vh; }
 
-.card-icons {
-  display: inline-block;
-  color: white;
-  font-size: 30px;
-  padding: 30px 48px 0px 48px; }
+@media (max-width: 450px) {
+  .work-wrap {
+    display: block;
+    height: 100%; }
 
+  .work {
+    border: 1px solid black;
+    margin-top: 2vh; }
+
+  .work-card {
+    margin: 60px auto;
+    height: auto;
+    width: 300px;
+    box-shadow: 0px 0px 202px -44px #C31826; }
+    .work-card img {
+      width: 100%; }
+    .work-card h3 {
+      padding: 20px 20px;
+      font-size: 12px; }
+    .work-card .card-icons {
+      font-size: 30px;
+      padding: 20px 10px 0px 20px; } }
 .about-me p:not(:first-child) {
   font-size: 90px;
   background-color: transparent;
   padding: 40px; }
+
+.about-me a {
+  text-decoration: underline; }
 
 a + span {
   display: none;
@@ -208,7 +235,7 @@ a:hover + span {
 
   .about-me {
     border: 1px solid transparent;
-    box-shadow: 0px 0px 402px -74px #C31826; }
+    box-shadow: 0px 0px 602px -74px #C31826; }
 
   .about-me-text, .about-me-text-1 {
     text-decoration: none; }
