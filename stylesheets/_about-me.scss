@@ -31,3 +31,11 @@ a:hover + span {
 .about-me-text-1 {
   text-decoration: underline;
 }
+
+@media(max-width: 450px) {
+  .about-me p:not(:first-child) {
+    font-size: 35px;
+    background-color: transparent;
+    padding: 10px;
+  }
+}

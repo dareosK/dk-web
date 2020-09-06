@@ -70,6 +70,28 @@ header {
 .navbar ul li {
   padding: 1rem; }
 
+@media (max-width: 450px) {
+  header {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 40px;
+    display: flex;
+    line-height: 0.1;
+    justify-content: space-between;
+    background-color: transparent;
+    z-index: 1; }
+
+  .logo {
+    font-size: 1.2em;
+    padding-left: 1em; }
+
+  .navbar {
+    padding-right: 1em;
+    font-size: 1.2em; }
+
+  .navbar ul li {
+    padding-bottom: 0.4em; } }
 .contact p {
   align-items: flex-start; }
 
@@ -101,6 +123,9 @@ header {
   text-align: left;
   width: 100%; }
 
+@media (max-width: 450px) {
+  .contact-item {
+    font-size: 35px; } }
 footer {
   position: fixed;
   bottom: 0;
@@ -116,6 +141,9 @@ footer {
 .hidden {
   display: none; }
 
+@media (max-width: 450px) {
+  #footer {
+    display: none; } }
 .work-wrap {
   width: 100%;
   display: flex;
@@ -173,6 +201,11 @@ a:hover + span {
 .about-me-text-1 {
   text-decoration: underline; }
 
+@media (max-width: 450px) {
+  .about-me p:not(:first-child) {
+    font-size: 35px;
+    background-color: transparent;
+    padding: 10px; } }
 .profile-media {
   height: 100vh !important; }
 
@@ -199,5 +232,53 @@ a:hover + span {
   height: 100vh;
   overflow: hidden;
   background-image: url("/stylesheets/images/Hero.jpg"); }
+
+@media (max-width: 450px) {
+  .profile-media {
+    width: 100vw;
+    height: 100vh; }
+
+  .intro-text {
+    font-size: 1em;
+    position: absolute;
+    bottom: 5em;
+    right: 3.9em;
+    text-align: center;
+    line-height: 0.9;
+    letter-spacing: 1px; }
+
+  #hire-me {
+    display: none; }
+
+  .underline {
+    height: 2px;
+    background-color: white;
+    margin-bottom: -0.7em;
+    margin-top: -1em; }
+
+  #section-1, #section-2, #section-3 {
+    display: none; }
+
+  .hero {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    overflow: hidden;
+    margin: 0; } }
+@media (max-width: 380px) {
+  .intro-text {
+    font-size: 0.9em;
+    right: 4.2em;
+    letter-spacing: 1px; } }
+@media (max-width: 330px) {
+  .intro-text {
+    font-size: 0.7em;
+    position: absolute;
+    bottom: 5em;
+    right: 5em;
+    text-align: center;
+    line-height: 0.9;
+    letter-spacing: 1px; } }
 
 /*# sourceMappingURL=styles.css.map */
