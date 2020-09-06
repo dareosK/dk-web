@@ -39,12 +39,12 @@ a:hover + span {
 @media(max-width: 450px) {
   .about-me p:not(:first-child) {
     font-size: 20px;
-    padding: 10px;
+    padding: 25px;
   }
 
   .about-me {
     border: 1px solid transparent;
-    box-shadow:  0px 0px 602px -74px $primary-color;
+    box-shadow: 0px 0px 202px -44px $primary-color;
   }
 
   .about-me-text, .about-me-text-1 {

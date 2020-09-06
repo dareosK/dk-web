@@ -127,8 +127,26 @@ header {
   width: 100%; }
 
 @media (max-width: 450px) {
+  .contact-wrap {
+    height: auto;
+    padding: 80px 0; }
+
   .contact-item {
-    font-size: 35px; } }
+    font-size: 35px; }
+
+  .contact {
+    border: 1px solid black;
+    box-shadow: 0px 0px 202px -44px #C31826;
+    margin-bottom: 100px; } }
+@media (max-width: 380px) {
+  .contact-wrap {
+    padding: 60px 0; }
+
+  .contact-item {
+    font-size: 32px; }
+
+  .contact {
+    margin-bottom: 60px; } }
 footer {
   position: fixed;
   bottom: 0;
@@ -199,6 +217,9 @@ footer {
     .work-card .card-icons {
       font-size: 30px;
       padding: 20px 10px 0px 20px; } }
+@media (max-width: 330px) {
+  .work-card {
+    width: 250px; } }
 .about-me p:not(:first-child) {
   font-size: 90px;
   background-color: transparent;
@@ -231,11 +252,11 @@ a:hover + span {
 @media (max-width: 450px) {
   .about-me p:not(:first-child) {
     font-size: 20px;
-    padding: 10px; }
+    padding: 25px; }
 
   .about-me {
     border: 1px solid transparent;
-    box-shadow: 0px 0px 602px -74px #C31826; }
+    box-shadow: 0px 0px 202px -44px #C31826; }
 
   .about-me-text, .about-me-text-1 {
     text-decoration: none; }
