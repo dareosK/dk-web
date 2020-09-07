@@ -1,8 +1,9 @@
 // _about-me.scss
 .about-me p:not(:first-child) {
-  font-size: 90px;
+  font-size: 65px;
   background-color: transparent;
-  padding: 40px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .about-me a {
@@ -29,14 +30,16 @@ a:hover + span {
 
 .about-me-text {
   text-decoration: overline;
+  padding: 60px 60px 0 60px;
 }
 
 .about-me-text-1 {
   text-decoration: underline;
+  padding: 0 60px 60px 60px;
 }
 
 // MEDIA QUERIES
-@media(max-width: 450px) {
+@media(max-width: 840px) {
   .about-me p:not(:first-child) {
     font-size: 20px;
     padding: 25px;

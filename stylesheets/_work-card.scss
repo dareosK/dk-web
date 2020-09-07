@@ -41,10 +41,22 @@
 
 
 // MEDIA QUERIES
-@media(max-width: 450px) {
-  .work-wrap{
+@media(max-width: 840px) {
+    .work-wrap{
     display: block;
     height: 100%;
+  }
+
+  .work-card {
+    margin: 60px auto;
+    height: auto;
+    width: 400px;
+    box-shadow: 0px 0px 202px -44px $primary-color;
+
+    h3 {
+      padding: 20px 20px;
+      font-size: 16px;
+    }
   }
 
   .work {
@@ -52,25 +64,15 @@
     margin-top: 2vh;
   }
 
-  .work-card {
-    margin: 60px auto;
-    height: auto;
-    width: 300px;
-    box-shadow: 0px 0px 202px -44px $primary-color;
-
-    img {
-      width: 100%;
-    }
-
-    h3 {
-      padding: 20px 20px;
-      font-size: 12px;
-    }
-
     .card-icons {
       font-size: 30px;
       padding: 20px 10px 0px 20px;
     }
+}
+
+@media(max-width: 450px) {
+  .work-card {
+    width: 300px;
   }
 }
 

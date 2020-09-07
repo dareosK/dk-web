@@ -73,17 +73,12 @@ header {
 .navbar ul li {
   padding: 1rem; }
 
-@media (max-width: 450px) {
+@media (max-width: 840px) {
   header {
     position: fixed;
     top: 0;
     width: 100vw;
-    height: 40px;
-    display: flex;
-    line-height: 0.1;
-    justify-content: space-between;
-    background-color: transparent;
-    z-index: 1; }
+    height: 40px; }
 
   .logo {
     font-size: 1.2em;
@@ -125,9 +120,10 @@ header {
   text-align: left;
   width: 100%; }
 
-@media (max-width: 450px) {
+@media (max-width: 840px) {
   .contact-wrap {
     height: auto;
+    width: 400px;
     padding: 80px 0; }
 
   .contact-item {
@@ -161,6 +157,12 @@ footer {
 .hidden {
   display: none; }
 
+@media (max-width: 840px) {
+  footer {
+    font-size: 1.3em; } }
+@media (max-width: 570px) {
+  footer {
+    font-size: 1em; } }
 @media (max-width: 450px) {
   #footer {
     display: none; } }
@@ -193,35 +195,38 @@ footer {
 .work {
   margin-top: 2vh; }
 
-@media (max-width: 450px) {
+@media (max-width: 840px) {
   .work-wrap {
     display: block;
     height: 100%; }
+
+  .work-card {
+    margin: 60px auto;
+    height: auto;
+    width: 400px;
+    box-shadow: 0px 0px 202px -44px #C31826; }
+    .work-card h3 {
+      padding: 20px 20px;
+      font-size: 16px; }
 
   .work {
     border: 1px solid black;
     margin-top: 2vh; }
 
+  .card-icons {
+    font-size: 30px;
+    padding: 20px 10px 0px 20px; } }
+@media (max-width: 450px) {
   .work-card {
-    margin: 60px auto;
-    height: auto;
-    width: 300px;
-    box-shadow: 0px 0px 202px -44px #C31826; }
-    .work-card img {
-      width: 100%; }
-    .work-card h3 {
-      padding: 20px 20px;
-      font-size: 12px; }
-    .work-card .card-icons {
-      font-size: 30px;
-      padding: 20px 10px 0px 20px; } }
+    width: 300px; } }
 @media (max-width: 330px) {
   .work-card {
     width: 250px; } }
 .about-me p:not(:first-child) {
-  font-size: 90px;
+  font-size: 65px;
   background-color: transparent;
-  padding: 40px; }
+  text-align: justify;
+  text-justify: inter-word; }
 
 .about-me a {
   text-decoration: underline; }
@@ -241,12 +246,14 @@ a:hover + span {
   box-shadow: 0px 0px 802px -64px #C31826; }
 
 .about-me-text {
-  text-decoration: overline; }
+  text-decoration: overline;
+  padding: 60px 60px 0 60px; }
 
 .about-me-text-1 {
-  text-decoration: underline; }
+  text-decoration: underline;
+  padding: 0 60px 60px 60px; }
 
-@media (max-width: 450px) {
+@media (max-width: 840px) {
   .about-me p:not(:first-child) {
     font-size: 20px;
     padding: 25px; }
@@ -292,19 +299,25 @@ a:hover + span {
   overflow: hidden;
   background-image: url("/stylesheets/images/Hero.jpg"); }
 
-@media (max-width: 450px) {
+@media (max-width: 840px) {
   .profile-media {
     width: 100vw;
     height: 100vh; }
 
   .intro-text {
-    font-size: 1em;
+    font-size: 0.7em;
     position: absolute;
     bottom: 3em;
     right: 3.9em;
-    text-align: center;
+    text-align: right;
     line-height: 0.9;
-    letter-spacing: 1px; }
+    letter-spacing: 1px; } }
+@media (max-width: 450px) {
+  .intro-text {
+    font-size: 1em;
+    bottom: 3em;
+    right: 3.9em;
+    text-align: center; }
 
   #hire-me {
     display: none; }
@@ -317,24 +330,18 @@ a:hover + span {
 
   .hero {
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: center center;
     height: 100%;
-    overflow: hidden;
     margin: 0; } }
 @media (max-width: 380px) {
   .intro-text {
     font-size: 0.9em;
-    right: 4.2em;
-    letter-spacing: 1px; } }
+    right: 4.2em; } }
 @media (max-width: 330px) {
   .intro-text {
     font-size: 0.7em;
-    position: absolute;
     right: 5em;
-    text-align: center;
-    line-height: 0.9;
-    letter-spacing: 1px; } }
+    text-align: center; } }
 #welcome-15 {
   font-size: 15em;
   position: absolute;
