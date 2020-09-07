@@ -420,6 +420,122 @@ a:hover + span {
   margin: 20px auto;
   text-shadow: 0px 0px 9px #640914; }
 
+@media (max-width: 830px) {
+  #welcome-animated-147 {
+    font-size: 8.1em;
+    margin: 6px auto; }
+
+  #welcome-147 {
+    font-size: 8.1em;
+    margin: 6px auto; }
+
+  #welcome-15 {
+    font-size: 8.2em;
+    margin: 0 auto; }
+
+  #welcome-145 {
+    font-size: 7.9em;
+    margin: 0 auto; }
+
+  #welcome-143 {
+    font-size: 7.7em;
+    margin: 6px auto; }
+
+  #work-15 {
+    font-size: 10.5em; }
+
+  #work-147 {
+    font-size: 10.4em;
+    margin: 7px auto; }
+
+  #work-145 {
+    font-size: 10.2em; }
+
+  #work-143 {
+    font-size: 10em;
+    margin: 7px auto; }
+
+  #hi-15 {
+    font-size: 9.8em;
+    margin: 0 auto; }
+
+  #hi-147 {
+    font-size: 9.5em;
+    margin: 7px auto; }
+
+  #hi-145 {
+    font-size: 9.2em;
+    margin: 0 auto; }
+
+  #hi-142 {
+    font-size: 9em;
+    margin: 7px auto; } }
+@media (max-width: 670px) {
+  #hi-15 {
+    font-size: 9.1em;
+    margin: 0 auto; }
+
+  #hi-147 {
+    font-size: 8.8em;
+    margin: 7px auto; }
+
+  #hi-145 {
+    font-size: 8.5em;
+    margin: 0 auto; }
+
+  #hi-142 {
+    font-size: 8.3em;
+    margin: 7px auto; } }
+@media (max-width: 580px) {
+  #welcome-animated-147 {
+    font-size: 6.1em;
+    margin: 6px auto; }
+
+  #welcome-147 {
+    font-size: 6.1em;
+    margin: 6px auto; }
+
+  #welcome-15 {
+    font-size: 6.2em;
+    margin: 0 auto; }
+
+  #welcome-145 {
+    font-size: 5.9em;
+    margin: 0 auto; }
+
+  #welcome-143 {
+    font-size: 5.7em;
+    margin: 6px auto; }
+
+  #work-15 {
+    font-size: 9.5em; }
+
+  #work-147 {
+    font-size: 9.4em;
+    margin: 7px auto; }
+
+  #work-145 {
+    font-size: 9.2em; }
+
+  #work-143 {
+    font-size: 9em;
+    margin: 7px auto; }
+
+  #hi-15 {
+    font-size: 7.8em;
+    margin: 0 auto; }
+
+  #hi-147 {
+    font-size: 7.5em;
+    margin: 7px auto; }
+
+  #hi-145 {
+    font-size: 7.2em;
+    margin: 0 auto; }
+
+  #hi-142 {
+    font-size: 7em;
+    margin: 7px auto; } }
 @media (max-width: 450px) {
   .in-between {
     height: 60vh; }
