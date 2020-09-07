@@ -32,20 +32,30 @@
 
 
 
-@media(max-width: 450px) {
+@media (max-width: 840px) {
   .profile-media {
     width: 100vw;
     height: 100vh;
   }
 
   .intro-text {
-    font-size: 1em;
+    font-size: 0.7em;
     position: absolute;
     bottom: 3em;
     right: 3.9em;
-    text-align: center;
+    text-align: right;
     line-height: 0.9;
     letter-spacing: 1px;
+  }
+}
+
+
+@media(max-width: 450px) {
+  .intro-text {
+    font-size: 1em;
+    bottom: 3em;
+    right: 3.9em;
+    text-align: center;
   }
 
   #hire-me {
@@ -61,11 +71,8 @@
 
   .hero {
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: center center;
     height: 100%;
-    // width: 100vw;
-    overflow: hidden;
     margin: 0;
   }
 }
@@ -74,17 +81,13 @@
   .intro-text {
     font-size: 0.9em;
     right: 4.2em;
-    letter-spacing: 1px;
   }
 }
 
 @media(max-width: 330px) {
   .intro-text {
     font-size: 0.7em;
-    position: absolute;
     right: 5em;
     text-align: center;
-    line-height: 0.9;
-    letter-spacing: 1px;
   }
 }
