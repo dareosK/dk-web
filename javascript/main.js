@@ -1,38 +1,38 @@
 // //example code GSAP
 // gsap.to("#gallerie", {duration:2, x:300})
 
-$(document).ready(function() {
-// import simpleParallax from 'simple-parallax-js';
-  $(window).scroll(function() {
-    const scroll = $(window).scrollTop();
-    $(".hero").css({
-      width: ( 100 + scroll / 18 ) + "%",
-      opacity: ( 100 - scroll / 15 ) + "%"
-    }),
-    $(".intro-text").css({
-      opacity: ( 100 - scroll / 2 ) + "%"
-    })
-    // $(".about-me").css({
-    //   opacity: ( 0 + scroll / 9 ) + "%"
-    // })
-  });
+// $(document).ready(function() {
+// // import simpleParallax from 'simple-parallax-js';
+//   $(window).scroll(function() {
+//     const scroll = $(window).scrollTop();
+//     $(".hero").css({
+//       width: ( 100 + scroll / 18 ) + "%",
+//       opacity: ( 100 - scroll / 15 ) + "%"
+//     }),
+//     $(".intro-text").css({
+//       opacity: ( 100 - scroll / 2 ) + "%"
+//     })
+//     // $(".about-me").css({
+//     //   opacity: ( 0 + scroll / 9 ) + "%"
+//     // })
+//   });
 
-// Makes letters warp on scroll
-const content = document.querySelectorAll(".test-text");
-let currentPos = window.pageYOffset;
+// // Makes letters warp on scroll
+// const content = document.querySelectorAll(".test-text");
+// let currentPos = window.pageYOffset;
 
-const callDistort = function () {
-    const newPos = window.pageYOffset;
-    const diff = newPos - currentPos;
-    const speed = diff * 0.02;
+// const callDistort = function () {
+//     const newPos = window.pageYOffset;
+//     const diff = newPos - currentPos;
+//     const speed = diff * 0.02;
 
-    for (let i=0; i<content.length; i++)
-    content[i].style.transform = "skewY(" + speed + "deg)";
-    currentPos = newPos;
-    requestAnimationFrame(callDistort);
-};
+//     for (let i=0; i<content.length; i++)
+//     content[i].style.transform = "skewY(" + speed + "deg)";
+//     currentPos = newPos;
+//     requestAnimationFrame(callDistort);
+// };
 
-callDistort();
+// callDistort();
 
 
 $('body').ripples({

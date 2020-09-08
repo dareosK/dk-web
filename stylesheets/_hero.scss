@@ -31,12 +31,7 @@
   overflow: hidden;
   background-image: url("/stylesheets/images/Hero.jpg");
 }
-  // .hero {
-  //   background-repeat: no-repeat;
-  //   background-position: center center;
-  //   height: 100%;
-  //   margin: 0;
-  // }
+
 
 @media (max-width: 1030px) {
   .profile-media {
@@ -67,6 +62,10 @@
     bottom: 3em;
     right: 3.9em;
     text-align: center;
+  }
+
+    .hero {
+    margin: 0 !important;
   }
 
   #hire-me {
