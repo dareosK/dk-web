@@ -1,7 +1,7 @@
 // //example code GSAP
 // gsap.to("#gallerie", {duration:2, x:300})
 
-// $(document).ready(function() {
+$(document).ready(function() {
 // // import simpleParallax from 'simple-parallax-js';
 //   $(window).scroll(function() {
 //     const scroll = $(window).scrollTop();
