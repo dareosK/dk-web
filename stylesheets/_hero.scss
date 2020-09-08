@@ -21,7 +21,9 @@
 }
 
 .hero {
-  background-position: right 1px bottom 1px;
+  // background-position: right 1px bottom 1px;
+  background-repeat: no-repeat;
+  background-position: center center;
   position:relative;
   background-size: cover;
   width: 100%;
@@ -29,14 +31,23 @@
   overflow: hidden;
   background-image: url("/stylesheets/images/Hero.jpg");
 }
+  // .hero {
+  //   background-repeat: no-repeat;
+  //   background-position: center center;
+  //   height: 100%;
+  //   margin: 0;
+  // }
 
-
-
-@media (max-width: 840px) {
+@media (max-width: 1030px) {
   .profile-media {
     width: 100vw;
     height: 100vh;
   }
+
+}
+
+
+@media (max-width: 840px) {
 
   .intro-text {
     font-size: 0.7em;
@@ -69,12 +80,6 @@
     margin-top: -1em;
   }
 
-  .hero {
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 100%;
-    margin: 0;
-  }
 }
 
 @media(max-width: 380px) {
