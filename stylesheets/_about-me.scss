@@ -38,16 +38,10 @@ a:hover + span {
   padding: 0 60px 60px 60px;
 }
 
-// MEDIA QUERIES
-@media(max-width: 840px) {
+@media(max-width: 1400px) {
   .about-me p:not(:first-child) {
-    font-size: 20px;
-    padding: 25px;
-  }
-
-  .about-me {
-    border: 1px solid transparent;
-    box-shadow: 0px 0px 202px -44px $primary-color;
+    font-size: 33px;
+    padding: 35px;
   }
 
   .about-me-text, .about-me-text-1 {
@@ -55,11 +49,21 @@ a:hover + span {
   }
 
   a + span {
-    display: none;
-    background-size: cover;
     width: 250px;
     height: 250px;
-    position: absolute;
-    box-shadow: 0px 0px 202px -44px $primary-color;
+  }
+}
+
+@media(max-width: 840px) {
+  .about-me p:not(:first-child) {
+    font-size: 20px;
+    padding: 25px;
+  }
+}
+
+@media(max-width: 380px) {
+  .about-me p:not(:first-child) {
+    font-size: 16px;
+    padding: 20px;
   }
 }
