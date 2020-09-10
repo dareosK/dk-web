@@ -204,6 +204,26 @@ footer {
 .work {
   margin-top: 2vh; }
 
+@media (max-width: 1400px) {
+  .work-wrap {
+    display: block;
+    height: 100%; }
+
+  .work-card {
+    margin: 60px auto;
+    height: auto;
+    width: 600px;
+    box-shadow: 0px 0px 202px -44px #C31826; }
+    .work-card h3 {
+      padding: 40px 40px;
+      font-size: 16px; }
+
+  .work {
+    margin-top: 2vh; }
+
+  .card-icons {
+    font-size: 30px;
+    padding: 20px 10px 0px 20px; } }
 @media (max-width: 840px) {
   .work-wrap {
     display: block;
@@ -217,10 +237,6 @@ footer {
     .work-card h3 {
       padding: 20px 20px;
       font-size: 16px; }
-
-  .work {
-    border: 1px solid black;
-    margin-top: 2vh; }
 
   .card-icons {
     font-size: 30px;
@@ -264,7 +280,7 @@ a:hover + span {
 
 @media (max-width: 1400px) {
   .about-me p:not(:first-child) {
-    font-size: 30px;
+    font-size: 33px;
     padding: 35px; }
 
   .about-me-text, .about-me-text-1 {
