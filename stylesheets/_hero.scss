@@ -15,7 +15,7 @@
 }
 
 .underline {
-  height: 2px;
+  height: 3px;
   background-color: white;
   margin-bottom: -0.7em;
   margin-top: -1em;
@@ -23,7 +23,7 @@
 
 .hero {
   // background-position: right 1px bottom 1px;
-      margin: 0 !important;
+  margin: 0 !important;
   background-repeat: no-repeat;
   background-position: center center;
   position:relative;
@@ -31,21 +31,42 @@
   width: 100%;
   height: 95vh;
   overflow: hidden;
-  background-image: url("/stylesheets/images/Hero1.jpg");
+  background-image: url("/stylesheets/images/Hero2.jpg");
 }
 
 // ipad Pro landscape
-@media (max-width: 1030px) {
+@media (max-width: 1400px) {
   .profile-media {
     width: 100vw;
     height: 95vh;
   }
 
-    .intro-text {
-    font-size: 1.2em;
+  .intro-text {
+    font-size: 1.4em;
     position: absolute;
     line-height: 0.9;
     letter-spacing: 1px;
+  }
+}
+
+@media (max-width: 1030px) and (orientation: portrait) {
+  footer {
+    display: none;
+  }
+
+  .intro-text {
+    font-size: 2.4em;
+    bottom: 2.2em;
+    right: 7em;
+    text-align: center;
+    line-height: 0.2;
+  }
+  .underline {
+    margin-bottom: 0em;
+    margin-top: 0em;
+  }
+  #hire-me {
+    text-align: right;
   }
 }
 
@@ -63,6 +84,32 @@
   }
 }
 
+@media (max-width: 770px) and (orientation: portrait) {
+
+  .logo {
+    font-size: 1.85em;
+    line-height: 0.01px;
+    a:hover {
+      text-shadow: 0px 0px 9px rgba(180, 9, 20, 1);
+  }
+}
+
+  .intro-text {
+    font-size: 1.65em;
+    bottom: 2.4em;
+    right: 8em;
+    text-align: center;
+    line-height: 0.2;
+  }
+  .underline {
+    margin-bottom: 0em;
+    margin-top: 0em;
+  }
+  #hire-me {
+    text-align: right;
+  }
+}
+
 
 @media(max-width: 450px) {
   #hire-me {
@@ -70,23 +117,30 @@
     text-align: right;
   }
 
-  .intro-text {
-    bottom: 3em;
-    right: 4.6em;
-    text-align: center;
+    .logo {
+    font-size: 1.60em;
   }
-}
 
-@media(max-width: 380px) {
   .intro-text {
-    font-size: 0.92em;
-    right: 4.4em;
+    font-size: 1.2em;
+    bottom: 2em;
+    right: 3.8em;
+    text-align: center;
+    line-height: 0.2;
+  }
+  .underline {
+    margin-bottom: 0em;
+    margin-top: 0em;
   }
 }
 
 @media(max-width: 330px) {
+  .logo {
+    font-size: 1.25em;
+  }
   .intro-text {
-    font-size: 0.7em;
-    right: 5.8em;
+    font-size: 1em;
+    right: 3.2em;
+    bottom: 2em;
   }
 }
