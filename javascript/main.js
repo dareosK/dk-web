@@ -8,10 +8,10 @@ $(document).ready(function() {
 //     $(".hero").css({
 //       width: ( 100 + scroll / 18 ) + "%",
 //       opacity: ( 100 - scroll / 15 ) + "%"
-//     }),
-//     $(".intro-text").css({
-//       opacity: ( 100 - scroll / 2 ) + "%"
 //     })
+//     // $(".intro-text").css({
+//     //   opacity: ( 100 - scroll / 2 ) + "%"
+//     // })
 //     // $(".about-me").css({
 //     //   opacity: ( 0 + scroll / 9 ) + "%"
 //     // })
