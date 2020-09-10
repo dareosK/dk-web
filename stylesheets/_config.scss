@@ -51,10 +51,10 @@ a {
   text-transform: uppercase;
   color: white;
   &:hover {
-    text-decoration: line-through;
-    outline-width: thick;
-    color: $primary-color;
-    text-shadow: 0px 0px 9px rgba(180, 9, 20, 1);
+    // text-decoration: line-through;
+    // // color: $primary-color;
+    // box-shadow: 0px 0px 202px -64px $primary-color;
+    text-shadow: 0px 0px 4px rgba(180, 9, 20, 1);
   }
 }
 

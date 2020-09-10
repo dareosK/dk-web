@@ -1,9 +1,10 @@
 // _footer.scss
 footer {
   position: fixed;
-  bottom: 0;
+  bottom: 1.3em;
   left: 0;
-  width: 100%;
+  width: 80%;
+  overflow: hidden;
   z-index: 8;
   justify-content: space-between;
   align-items: flex-end;
@@ -19,7 +20,8 @@ footer {
 
 @media (max-width: 840px) {
   footer {
-    font-size: 1.3em;
+    font-size: 1em;
+    padding-bottom: 1em;
   }
 }
 
