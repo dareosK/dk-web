@@ -311,28 +311,21 @@ a:hover + span {
     text-align: right;
     letter-spacing: 1px; } }
 @media (max-width: 450px) {
-  .intro-text {
-    font-size: 1em;
-    bottom: 3em;
-    right: 4.6em;
-    text-align: center; }
-
   #hire-me {
     text-align: right; }
 
-  .underline {
-    height: 2px;
-    background-color: white;
-    margin-bottom: -0.7em;
-    margin-top: -1em; } }
+  .intro-text {
+    bottom: 3em;
+    right: 4.6em;
+    text-align: center; } }
 @media (max-width: 380px) {
   .intro-text {
-    font-size: 0.9em; } }
+    font-size: 0.92em;
+    right: 4.4em; } }
 @media (max-width: 330px) {
   .intro-text {
     font-size: 0.7em;
-    right: 5.8em;
-    text-align: center; } }
+    right: 5.8em; } }
 #welcome-15 {
   font-size: 15em;
   position: absolute;
