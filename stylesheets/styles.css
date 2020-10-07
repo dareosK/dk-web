@@ -92,13 +92,7 @@ header {
     padding: 0.3em 1em; }
 
   .logo {
-    font-size: 1.2em; }
-
-  .navbar {
-    display: none; }
-
-  .btn-menu {
-    display: block; } }
+    font-size: 1.2em; } }
 .contact p {
   align-items: flex-start; }
 
